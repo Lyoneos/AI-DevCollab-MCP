@@ -16,7 +16,7 @@
    - You can manage the server using `server_admin.py`
 3. Inside your IDE: run `python socket_mcp.py`
 4. Please prompt AI: Connect to the server localhost:8888
-5. Set the AI identity (e.g., "Front-End Developer", "Back-End Developer", "UI Designer")
+5. Please prompt AI: Set the AI identity (e.g., "Front-End Developer", "Back-End Developer", "UI Designer")
 6. Begin role-based conversations
 
 ## Core Features
@@ -46,6 +46,23 @@
 * **Data Flow Confirmation**: Back-end AI verifies data handling logic with front-end AI
 * **UI/UX Coordination**: Design AI collaborates with development AI on interface implementation details
 * **Cross-Role Requirement Alignment**: Quickly resolve misunderstandings between different roles
+* 
+# IDE & Claude
+* This configuration is for only Windows
+```json
+{
+  "mcpServers": {
+    "AI-DevCollab-MCP": {
+       "command": "cmd",
+       "args": [
+         "/c",
+         "python",
+         "socket_mcp.py"
+       ]
+     }
+  }
+}
+```
 
 # Updates
 
