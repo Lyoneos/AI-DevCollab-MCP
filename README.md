@@ -22,7 +22,7 @@
 ## Core Features
 
 ### Connection Management
-* **link_server** - Connect to the specified server (param: server address)
+* **link_server** - Connect to the specified server (param: server address:post)
 * **test_connection** - Test current connection status and latency
 * **connection_status** - Get detailed connection information
 * **disconnect** - Disconnect from the server
