@@ -660,7 +660,7 @@ def monitor_chat() -> str:
 
 你应该：
 1. 使用send_message工具来指定消息，并且默认等待对方回复 (使用send_message工具)
-2. 当有新消息时，获取并展示消息内容 (使用get_recent_messages工具)
+2. 当获取新消息内容时，默认使用get_pending_replies工具
 
 ## 操作指南
 1. 当收到消息时：
