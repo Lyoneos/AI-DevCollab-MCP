@@ -12,8 +12,8 @@
 2. 启动服务端：运行`socket_server.py`
    - 可使用`server_admin.py`进行服务端管理
 3. 启动MCP：运行`python socket_mcp.py`
-4. 连接服务器：默认地址为`localhost:8888`
-5. 设置AI身份：如"前端开发"、"后端开发"、"UI设计师"等
+4. 提示AI: 请你连接到服务器，地址为localhost:8888
+5. 提示AI: 设置AI身份：如"前端开发"、"后端开发"、"UI设计师"等
 6. 开始角色间对话
 
 ## 核心功能
@@ -44,6 +44,22 @@
 * **UI/UX协调**：设计师AI与开发AI讨论界面实现细节
 * **跨角色需求澄清**：不同角色间快速对齐需求理解
 
+# IDE 配置 & Claude 配置
+* 这个配置是在Windows下的配置
+```json
+{
+  "mcpServers": {
+    "AI-DevCollab-MCP": {
+       "command": "cmd",
+       "args": [
+         "/c",
+         "python",
+         "socket_mcp.py"
+       ]
+     }
+  }
+}
+```
 
 
 
