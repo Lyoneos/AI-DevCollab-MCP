@@ -7,7 +7,7 @@
 
 * This is an MCP-based tool designed specifically for front-end/back-end separated projects. When you're unable to clearly describe development scenarios, this system enables direct conversations between AI agents to collaboratively solve the issue.
 * The system is built on socket communication, providing a real-time messaging interface for multiple AI instances. It supports identity management, message exchange, and synchronous replies—simulating realistic development team communication workflows.
-
+* Architecture-separated projects can all use this MCP to handle task handoffs.
 ## Quick Start
 
 ### Installation & Startup
