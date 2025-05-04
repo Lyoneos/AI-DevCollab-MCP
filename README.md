@@ -14,8 +14,8 @@
 1. Download both the client and server files.
 2. Start the server: run `socket_server.py`
    - You can manage the server using `server_admin.py`
-3. Start the MCP interface: run `python socket_mcp.py`
-4. Connect to the server (default: `localhost:8888`)
+3. Inside your IDE: run `python socket_mcp.py`
+4. Please prompt AI: Connect to the server localhost:8888
 5. Set the AI identity (e.g., "Front-End Developer", "Back-End Developer", "UI Designer")
 6. Begin role-based conversations
 
