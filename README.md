@@ -64,6 +64,10 @@
 }
 ```
 
+# Demo Video Link
+- [【AI-DevCollab-MCP】](https://www.bilibili.com/video/BV1M8VNzLEhB/?share_source=copy_web&vd_source=09c93e3ecc1959d0046ae256f1442eb9)
+
+
 # Updates
 
 * 2025.05.04 — Version 0.1: Debugging code still present; updates pending
